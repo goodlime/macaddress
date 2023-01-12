@@ -13,5 +13,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-# EXPOSE 3000
+# Run app
 CMD node app.js -a $ADDRESS
